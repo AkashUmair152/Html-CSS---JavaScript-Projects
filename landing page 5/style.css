@@ -1,0 +1,102 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+#main {
+  height: 100vh;
+  width: 100%;
+}
+#top {
+  height: 60%;
+  width: 100%;
+  /* background-color: gainsboro; */
+
+  background-image: url(https://images.unsplash.com/photo-1720849644323-499c62694fbb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+  background-position: center;
+  background-size: cover;
+}
+#overlay {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(19, 19, 19, 0.447);
+}
+#text{
+  color: white;
+  position: absolute;
+  bottom: 20%;
+  padding: 0 12vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#textright{
+    display: flex;
+    width: 55%;
+    align-items: center;
+    justify-content: space-between;
+}
+#textright p{
+    font-size: 12px;
+    width: 40%;
+}
+
+#icon i{
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+#text h1 {
+  font-size: 6vw;
+  font-weight: 500;
+  color: white;
+}
+
+#bottom {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(76, 70, 70);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bone {
+  height: 100%;
+  width: 25%;
+  background-color: white;
+}
+
+#btwo {
+  height: 100%;
+  width: 25%;
+background-image: url(https://plus.unsplash.com/premium_photo-1664300008816-af532193243a?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-position: center;
+background-size: cover;
+
+
+}
+
+#bthree {
+  height: 100%;
+  width: 25%;
+  background-image: url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-position: center;
+background-size: cover;
+}
+
+#bfour {
+  height: 100%;
+  width: 25%;
+  background-image: url(https://plus.unsplash.com/premium_photo-1676762448146-de8a34fbfb88?q=80&w=2023&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+}

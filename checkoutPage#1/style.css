@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+#main {
+  max-width: 1400px;
+  margin: 0% auto;
+}
+header {
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+  font-size: 18px;
+}
+.nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.icons {
+  display: flex;
+  font-size: 18px;
+  gap: 15px;
+}
+
+/* check out page  */
+
+.check {
+  margin-top: 40px;
+  height: 70vh;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-section {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.big-img {
+  height: 500px;
+  width: 100%;
+  /* border-right: 1px solid gray;/ */
+}
+
+.small-img img {
+  margin-right: 10px;
+  width: 115px;
+  height: 115px;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content-section {
+  height: 100%;
+  width: 50%;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 10vh;
+  width: 100%;
+}
+.tag h4 {
+  padding: 5px 50px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.title h1 {
+  padding: 5px 50px;
+  font-size: 32px;
+  font-weight: 500;
+}
+.price {
+  padding: 5px 50px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.price i {
+  font-size: 18px;
+}
+.color {
+  padding: 5px 50px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.color .brown {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(148, 68, 68);
+  border-radius: 50%;
+}
+
+.size {
+  padding: 5px 50px;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.size h4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.size span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.btn {
+  padding: 5px 50px;
+  margin-top: 10px;
+}
+.btn button {
+  padding: 15px 60px;
+  border: 2px solid grey;
+  font-weight: 600;
+  background-color: transparent;
+}
+.line {
+  padding-left: 50px;
+  margin-top: 30px;
+}
+.Tb {
+  /* height: 30px; */
+  background-color: transparent;
+  border-top: 1px solid grey;
+}
+
+.Tb p {
+  padding: 12px 0px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.products {
+  margin: 150px 0px;
+  text-align: center;
+}
+.products h1 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.product {
+  height: 400px;
+  width: 350px;
+  text-align: left;
+}
+.product img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  object-position: top;
+  object-fit: cover;
+}
+.product h2 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+.product p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.upper-footer {
+  margin: 40px 0px;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  padding: 30px;
+  text-align: center;
+}
+
+.upper-footer h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.upper-footer h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.upper-footer .tag {
+  max-width: 300px;
+  margin: 10px auto;
+  font-size: 16px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 10px;
+}
+.lower-footer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom: 1px solid grey;
+}
+.right {
+  display: flex;
+  justify-items: end;
+  gap: 100px;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.copy-right {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copy-right h4 {
+  font-size: 16px;
+  font-weight: 300;
+}

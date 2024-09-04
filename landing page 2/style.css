@@ -1,0 +1,128 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#left {
+  position: relative;
+  width: 40%;
+  height: 100%;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  font-size: 22px;
+}
+#item1 i{
+
+    font-size: 22px;
+}
+#item2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#item2 i{
+font-size: 22px;
+color: skyblue;
+}
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#content h1{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+   
+}
+#content p{
+    font-size: 20px; 
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+#content a{
+    font-size: 22px;   
+    list-style: none;
+    color: black; 
+    text-decoration: none;
+}
+#right {
+  height: 100%;
+  width: 60%;
+}
+#Rtop {
+  display: flex;
+  height: 50%;
+  width: 100%;
+  /* background-color: yellow; */
+}
+#RtopLeft {
+  height: 100%;
+  width: 55%;
+  background-image: url(https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zmxvd2VyfGVufDB8fDB8fHww);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+#RtopRight {
+  height: 100%;
+  width: 45%;
+  background-image: url(https://plus.unsplash.com/premium_photo-1683121484963-a491b935780b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zmxvd2VyfGVufDB8fDB8fHww);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+
+#Rbottom{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1500320821405-8fc1732209ca?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+}
+
+
+@media (max-width:500px) {
+
+  #main{
+    flex-direction: column;
+  }
+  #main #left #nav{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #main #left{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #main #right{
+    width: 100%;
+    align-items: center;
+  }
+  
+}

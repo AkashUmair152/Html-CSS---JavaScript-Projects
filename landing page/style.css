@@ -1,0 +1,111 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* colors
+    main: #ab8f97
+    primary: #b79fa4 */
+
+
+html , body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #987b83;
+    display: flex;
+    margin: auto;
+}
+.part1{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(196, 196, 247); */
+}
+.part2{
+    height: 100%;
+    width: 70%;
+    /* background-color: rgb(225, 241, 131); */
+    background-image: url(https://images.unsplash.com/photo-1526510747491-58f928ec870f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.9; */
+    
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(16, 15, 15, 0.29);
+}
+.part3{
+    height: 100%;
+    width: 8%;
+    /* background-color: rgb(62, 208, 79); */
+}
+
+#text{
+    height: 300px;
+    width: 400px;
+    /* background-color: red; */
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    transform: translate(0, -50%);
+}
+
+#text h1{
+    font-size: 90px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 90px;
+    color: white;
+    letter-spacing: 2px;
+
+}
+
+.small-img{
+    width: 300px;
+    height: 400px;
+    /* background-color: green; */
+    position: absolute;
+    top: 50%;
+    right:5%;
+    transform: translate(0, -50%);
+    background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+.overlay-in{
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(16, 15, 15, 0.332);
+
+}
+
+.vertical-text{
+    font-size: ;
+    position: absolute;
+    transform: rotate(90deg);
+    right: -50%;
+    top: -7%;
+    transform-origin: 0% 0%;
+
+
+}
+.vertical-text h1{
+    font-size: 60px;
+    font-weight: 800;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color:white ;
+    color: transparent;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+
+
+}

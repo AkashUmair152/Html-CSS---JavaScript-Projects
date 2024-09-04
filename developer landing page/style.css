@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+#hero {
+  background-image: url("https://bootcamprankings.com/wp-content/uploads/2022/12/top-tips-to-create-the-best-desk-setup-for-developers.jpg");
+  height: 100vh;
+  /* object-fit: cover; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hero-text {
+  color: white;
+  max-width: 900px;
+  margin: 0% auto;
+  padding-top: 65px;
+  padding-left: 16px;
+}
+.lg-text {
+  font-size: 70px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#black-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 25vh;
+  width: 100%;
+  text-transform: uppercase;
+}
+#black-box h2 {
+  font-size: 55px;
+  font-weight: 300;
+}
+.text {
+  font-size: 95px;
+}
+#work {
+  /* margin: 35px 0; */
+  padding: 0% 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  max-width: 1400px;
+  margin: 35px auto;
+}
+
+.card {
+  height: 450px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 4px 5px 3px rgba(1, 1, 1, 0.2);
+  transition: 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: 4px 5px 3px rgba(1, 1, 1, 0.4);
+  transition: 0.3s ease-in-out;
+}
+.img-box {
+  height: 350px;
+  height: 300px;
+}
+.img-box img {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 10px;
+}
+.card-content {
+  padding: 15px;
+  text-align: center;
+}
+.card-content h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.card-content p {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 50px;
+  max-width: 1400px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 35px;
+}
+.contact {
+  background-color: rgb(51, 88, 51);
+  padding: 20px 0;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.contact h1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.contact p {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.about {
+  background-color: rgb(108, 34, 52);
+  padding: 20px 0;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.about h1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.about p {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 300;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 12vh;
+  width: 100%;
+  text-transform: uppercase;
+}
+#footer span {
+  font-size: 35px;
+  padding-left: 15px;
+  font-weight: 400;
+}
+#footer h3 {
+  font-size: 18px;
+  font-weight: 400;
+}

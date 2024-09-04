@@ -1,0 +1,150 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html, body{
+    width: 100%;
+    height: 100vh;
+}
+
+/* <!!!====================================================================!!!>
+
+             main container style start from here 
+
+<!!!====================================================================!!!> */
+.main{
+ height: 100%;
+ width: 100%;
+ background-color: white;
+
+}
+
+
+
+
+
+/* <!!!====================================================================!!!>
+
+            Navbar menu style start from here 
+
+<!!!====================================================================!!!> */
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+/* <!!!====================================================================!!!>
+
+            left side of Navbar menu style start from here 
+
+<!!!====================================================================!!!> */
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    
+}
+
+.nav-left h2{
+    font-size: 17px;
+    border: 1px solid black;
+    padding: 5px 8px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.nav-left i{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px 3px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+
+
+
+/* <!!!====================================================================!!!>
+
+             center (logo) of Navbar menu style start from here 
+
+<!!!====================================================================!!!> */
+
+.logo{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+
+/* <!!!====================================================================!!!>
+
+            right side of Navbar menu style start from here 
+
+<!!!====================================================================!!!> */
+
+.nav-right button{
+    padding: 7px 12px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+
+}
+#btn2{
+    background-color: orangered;
+    color: #fff;
+}
+/* <!!!====================================================================!!!>
+
+            Hero section styling start from here 
+
+<!!!====================================================================!!!> */
+.hero{
+    height: ;
+    width: 100%;
+}
+
+.hero h1{
+    text-transform: uppercase;
+    font-size: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 370px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    opacity: 0.9;
+
+}
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+
+}

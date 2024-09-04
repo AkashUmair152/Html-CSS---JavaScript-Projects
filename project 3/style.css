@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+}
+
+.main{
+
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+.nav-l{
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-c{
+    text-transform: uppercase;
+    font-weight: 600;
+    /* width: 45%; */
+}
+.nav-list{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+    justify-items: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.content{
+    margin-top: 120px;
+    padding: 0 80px;
+}
+.content h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.content h1{
+    font-size: 145px;
+    font-weight: 500;
+    line-height: 130px;
+    letter-spacing: -7px;
+}
+
+.case{
+    margin-top: 130px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 40px 80px
+}
+.case h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+.case1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.case1 h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.case1 .line{
+    height: 3px;
+    width: 100px;
+    background-color: black
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    gap: 15px;
+
+}
+.elem{
+    width: 50%;
+}
+.elem img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    gap: 20px;
+    border-radius: 20px;
+
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+
+}
+.bottom h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 7px;
+
+}
+.bottom h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+.bottom i{
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 60px;
+    padding: 15px 25px;
+}
