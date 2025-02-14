@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  max-width: 1500px;
+  margin: 0% auto;
+  padding: 10px 100px;
+  position: relative;
+}
+.main {
+  max-width: 1300px;
+  margin: 0% auto;
+}
+
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  gap: 30px;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.nav-items ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav-items ul li {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.logo {
+  font-size: 65px;
+  color: #2b426a;
+  font-weight: bold;
+}
+
+/* hero section   */
+
+.hero {
+  margin-top: 30px;
+  height: 70vh;
+  width: 100%;
+  background-color: #fbfbfb:
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content img {
+  width: 420px;
+  height: 500px;
+  background-position: top;
+  object-fit: cover;
+}
+.text {
+  text-align: center;
+}
+.text h1 {
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.text button {
+  padding: 18px 40px;
+  background-color: black;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  border-radius: 50px;
+}
+
+
+/* service section   */
+
+.service-section{
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.service h4{
+  color: grey;
+}
+
+
+/* <!-- img with text section  -->  */
+
+.img-w-text{
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45vh;
+  width: 100%;
+  background-color: beige;
+}
+.left{
+background-image: url("/img/yellow4.webp");
+height:100%;
+width: 50%;
+object-fit: cover;
+background-position: top;
+object-position: center;
+background-repeat: no-repeat;
+
+}
